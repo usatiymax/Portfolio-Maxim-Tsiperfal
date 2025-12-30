@@ -387,6 +387,7 @@ html, body {
     color: var(--title-3);
     font-family: inherit;
     font-size: 1rem;
+    color: var(--black);
     transition: border-color 0.2s ease-in;
 }
 
@@ -459,6 +460,7 @@ html, body {
 
 .btn-go-top--show {
     display: block;
+    z-index: 9;
 }
 
 .btn-go-top:hover {
